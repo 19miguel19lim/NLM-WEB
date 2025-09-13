@@ -15,7 +15,7 @@ import {
 import { Link } from "react-router-dom";
 import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
 
-const InsuranceIndustry = () => {
+const Insurance = () => {
   const processSteps = [
     {
       icon: Search,
@@ -102,10 +102,10 @@ const InsuranceIndustry = () => {
 
           <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p className="text-accent font-medium uppercase tracking-wide text-sm mb-4">
-              Clients
+              Insurance Industry
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-foreground mb-6 leading-tight">
-              Reach Motivated Clients{" "}
+              Reach Motivated Insurance Clients{" "}
               <span className="bg-gradient-to-r from-accent to-accent-glow-light bg-clip-text text-transparent">
                 at Scale
               </span>
@@ -266,4 +266,4 @@ const InsuranceIndustry = () => {
   );
 };
 
-export default InsuranceIndustry;
+export default Insurance;

@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Target, Heart, Award, Users } from "lucide-react";
+import { Target, Users, Heart, Award } from "lucide-react";
 import { Link } from "react-router-dom";
 import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
 
@@ -40,22 +40,18 @@ const About = () => {
 
       <main>
         {/* Hero Section */}
-        <section className="relative py-24 overflow-hidden">
-          {/* Background Video */}
+        <section className="relative py-24 bg-hero-gradient overflow-hidden">
+          {/* Video Background */}
           <video
-            className="absolute inset-0 w-full h-full object-cover"
             autoPlay
             muted
             loop
             playsInline
+            className="absolute inset-0 w-full h-full object-cover"
           >
             <source src={TrueNorthVideo} type="video/mp4" />
-            Your browser does not support the video tag.
           </video>
-
-          {/* Background Gradient Overlay */}
           <div className="absolute inset-0 bg-hero-gradient opacity-60" />
-
           <div className="absolute inset-0 overflow-hidden">
             <svg
               className="absolute bottom-0 w-full h-32 text-surface-elevated opacity-20"
@@ -75,9 +71,11 @@ const About = () => {
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Founded in 2010, TrueNorth has its roots in delivering quality
-              phone calls. The company was started by a solo marketer, in an
-              effort to fill a need in the performance call marketing space.
+              Founded in 2022, TrueNorth is a performance marketing agency
+              focused on generating high-quality leads and calls through
+              data-driven ad campaigns. By leveraging platforms like Google and
+              Meta, we design, launch, and optimize campaigns that drive
+              measurable ROI.
             </p>
           </div>
         </section>
@@ -98,25 +96,25 @@ const About = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
                   <p className="text-muted-foreground leading-relaxed">
-                    Founded in 2010, TrueNorth has its roots in delivering
-                    quality phone calls. The company was started by a solo
-                    marketer, in an effort to fill a need in the performance
-                    call marketing space. There were too many networks that were
-                    untrustworthy and who were only out for themselves.
+                    TrueNorth is a performance marketing agency focused on
+                    generating high-quality leads and calls through data-driven
+                    ad campaigns. We quickly realized that business owners
+                    needed comprehensive growth solutions that deliver
+                    measurable ROI.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Since being founded, TrueNorth has grown to be the
-                    industry's most trustworthy and caring places to conduct
-                    business as a publisher and advertiser. Now TrueNorth is
-                    considered a top tier pay per call marketplace helping
-                    publishers monetize their leads better than anyone else in
-                    the market and connecting businesses with the highest
-                    quality phone call leads.
+                    In 2023, we expanded into affiliate marketing, developing
+                    performance-based strategies that deliver measurable
+                    results. This evolution led us to become a comprehensive
+                    growth partner, leveraging platforms like Google and Meta to
+                    design, launch, and optimize campaigns that drive measurable
+                    results.
                   </p>
                   <p className="text-foreground font-semibold">
-                    Plain & Simple: We help businesses acquire customers by
-                    driving them inbound phone calls with highly interested
-                    customers on the other end.
+                    Today, we help business owners and CEOs accelerate their
+                    growth through proven performance marketing and affiliate
+                    marketing strategies that deliver real results and directly
+                    impact their bottom line.
                   </p>
                 </div>
 

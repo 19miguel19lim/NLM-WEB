@@ -76,42 +76,44 @@ const Hero = () => {
             </span>
           </h1>
 
-          <p className="text-lg sm:text-xl lg:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-xl lg:text-2xl text-muted-foreground mb-8 max-w-4xl mx-auto leading-relaxed">
             <span className="font-semibold text-foreground">
-              We are Experts in Acquiring Customers.
+              We Help CEOs and Business Owners Scale Their Companies.
             </span>
             <br className="hidden sm:block" />
-            At TrueNorth, we're not just seasoned digital marketers for your
-            business. We see ourselves as your partner in growth.
+            We are a performance marketing agency focused on generating
+            high-quality leads and calls through data-driven ad campaigns. By
+            leveraging platforms like Google and Meta, we design, launch, and
+            optimize campaigns that drive measurable ROI.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
             <Button variant="hero" size="xl" className="min-w-[200px]" asChild>
               <Link to="/contact">Get Started</Link>
             </Button>
-            <Button variant="nav" size="xl" className="min-w-[200px]">
-              Learn More
+            <Button variant="nav" size="xl" className="min-w-[200px]" asChild>
+              <Link to="/contact">Contact Us</Link>
             </Button>
           </div>
 
           {/* Stats or Trust Indicators */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-3xl mx-auto">
+          <div className="grid grid-cols-3 lg:grid-cols-3 gap-8 max-w-3xl mx-auto">
             <div className="text-center">
               <div className="text-2xl lg:text-3xl font-bold text-accent mb-1">
-                14+
+                100+
               </div>
               <div className="text-sm text-muted-foreground uppercase tracking-wide">
-                Years Experience
+                Businesses Helped
               </div>
             </div>
-            <div className="text-center">
+            {/* <div className="text-center">
               <div className="text-2xl lg:text-3xl font-bold text-accent mb-1">
-                500+
+                50+
               </div>
               <div className="text-sm text-muted-foreground uppercase tracking-wide">
                 Clients Served
               </div>
-            </div>
+            </div> */}
             <div className="text-center">
               <div className="text-2xl lg:text-3xl font-bold text-accent mb-1">
                 98%

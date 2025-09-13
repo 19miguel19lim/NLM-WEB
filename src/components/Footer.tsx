@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import {
   Facebook,
   Twitter,
@@ -19,13 +20,16 @@ const Footer = () => {
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
             {/* Company Info */}
             <div className="lg:col-span-1 space-y-6">
-              <div className="flex items-center">
+              <Link
+                to="/"
+                className="flex items-center hover:opacity-80 transition-opacity"
+              >
                 <img
                   src={TrueNorthLogo}
                   alt="TrueNorth Logo"
                   className="h-12 w-auto"
                 />
-              </div>
+              </Link>
               <p className="text-muted-foreground leading-relaxed">
                 Your strategic partner in all things growth. We're experts in
                 acquiring customers and building lasting partnerships that drive
@@ -126,9 +130,11 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <Button variant="hero" className="w-full">
-                Schedule a Call
-              </Button>
+              <Link to="/contact">
+                <Button variant="hero" className="w-full">
+                  Schedule a Call
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -163,15 +169,24 @@ const Footer = () => {
               © 2024 TrueNorth. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
-              <button className="text-muted-foreground hover:text-accent transition-colors">
+              <Link
+                to="/privacy-policy"
+                className="text-muted-foreground hover:text-accent transition-colors"
+              >
                 Privacy Policy
-              </button>
-              <button className="text-muted-foreground hover:text-accent transition-colors">
+              </Link>
+              <Link
+                to="/terms-of-service"
+                className="text-muted-foreground hover:text-accent transition-colors"
+              >
                 Terms of Service
-              </button>
-              <button className="text-muted-foreground hover:text-accent transition-colors">
+              </Link>
+              <Link
+                to="/cookie-policy"
+                className="text-muted-foreground hover:text-accent transition-colors"
+              >
                 Cookie Policy
-              </button>
+              </Link>
             </div>
           </div>
         </div>

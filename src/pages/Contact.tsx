@@ -3,16 +3,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
 
 const Contact = () => {
   return (
@@ -20,15 +14,23 @@ const Contact = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-16">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative pt-24 pb-16 overflow-hidden">
+        {/* Video Background */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src={TrueNorthVideo} type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-hero-gradient opacity-60" />
+        <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl lg:text-6xl font-heading font-bold text-foreground mb-6">
-              Ready to{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-primary">
-                Transform
-              </span>{" "}
-              Your Business?
+              Ready to <span style={{ color: "#089f72" }}>Transform</span> Your
+              Business?
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
               Let's discuss how TrueNorth can help you achieve your customer
@@ -64,7 +66,7 @@ const Contact = () => {
                         id="firstName"
                         placeholder="John"
                         required
-                        className="mt-2 bg-background border-border text-foreground"
+                        className="mt-2"
                       />
                     </div>
                     <div>
@@ -75,22 +77,9 @@ const Contact = () => {
                         id="lastName"
                         placeholder="Smith"
                         required
-                        className="mt-2 bg-background border-border text-foreground"
+                        className="mt-2"
                       />
                     </div>
-                  </div>
-
-                  <div>
-                    <Label htmlFor="email" className="text-foreground">
-                      Business Email *
-                    </Label>
-                    <Input
-                      id="email"
-                      type="email"
-                      placeholder="john@company.com"
-                      required
-                      className="mt-2 bg-background border-border text-foreground"
-                    />
                   </div>
 
                   <div>
@@ -102,66 +91,8 @@ const Contact = () => {
                       type="tel"
                       placeholder="(555) 123-4567"
                       required
-                      className="mt-2 bg-background border-border text-foreground"
+                      className="mt-2"
                     />
-                  </div>
-
-                  <div>
-                    <Label htmlFor="company" className="text-foreground">
-                      Company Name *
-                    </Label>
-                    <Input
-                      id="company"
-                      placeholder="Your Company Inc."
-                      required
-                      className="mt-2 bg-background border-border text-foreground"
-                    />
-                  </div>
-
-                  <div>
-                    <Label htmlFor="industry" className="text-foreground">
-                      Industry *
-                    </Label>
-                    <Select required>
-                      <SelectTrigger className="mt-2 bg-background border-border text-foreground">
-                        <SelectValue placeholder="Select your industry" />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="insurance">Insurance</SelectItem>
-                        <SelectItem value="healthcare">Healthcare</SelectItem>
-                        <SelectItem value="financial">
-                          Financial Services
-                        </SelectItem>
-                        <SelectItem value="realestate">Real Estate</SelectItem>
-                        <SelectItem value="automotive">Automotive</SelectItem>
-                        <SelectItem value="education">Education</SelectItem>
-                        <SelectItem value="other">Other</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  <div>
-                    <Label htmlFor="budget" className="text-foreground">
-                      Monthly Marketing Budget
-                    </Label>
-                    <Select>
-                      <SelectTrigger className="mt-2 bg-background border-border text-foreground">
-                        <SelectValue placeholder="Select your budget range" />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="5k-10k">$5,000 - $10,000</SelectItem>
-                        <SelectItem value="10k-25k">
-                          $10,000 - $25,000
-                        </SelectItem>
-                        <SelectItem value="25k-50k">
-                          $25,000 - $50,000
-                        </SelectItem>
-                        <SelectItem value="50k-100k">
-                          $50,000 - $100,000
-                        </SelectItem>
-                        <SelectItem value="100k+">$100,000+</SelectItem>
-                      </SelectContent>
-                    </Select>
                   </div>
 
                   <div>
@@ -173,7 +104,7 @@ const Contact = () => {
                       placeholder="Describe your customer acquisition challenges and what you're looking to achieve..."
                       required
                       rows={4}
-                      className="mt-2 bg-background border-border text-foreground"
+                      className="mt-2"
                     />
                   </div>
 
@@ -265,7 +196,7 @@ const Contact = () => {
                     Why Choose TrueNorth?
                   </h3>
                   <ul className="text-left space-y-2 text-primary-foreground/90">
-                    <li>• 20+ years of performance marketing experience</li>
+                    <li>• Proven performance marketing strategies</li>
                     <li>• Dedicated account management team</li>
                     <li>• Custom solutions for your industry</li>
                     <li>• Real-time campaign optimization</li>

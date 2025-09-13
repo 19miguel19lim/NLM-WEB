@@ -2,10 +2,19 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import {
+  Calendar,
+  User,
+  ArrowRight,
+  BookOpen,
+  TrendingUp,
+  Phone,
+  Scale,
+  Building,
+  Users,
+} from "lucide-react";
 import { Link } from "react-router-dom";
-import { Calendar, User, ArrowRight, BookOpen } from "lucide-react";
 import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
-// Import blog images
 import LeadGenerationImg from "@/assets/lead-generation.jpg";
 import SalesObjectionsImg from "@/assets/Essential-tips-for-handling-sales-obejections-over-the-phone.jpg";
 import PhoneLeadsImg from "@/assets/phone-lead-5.jpg";
@@ -18,6 +27,26 @@ import VirtualQueuingImg from "@/assets/what-is-virtual-queuing-in-a-call-center
 import CallCenterProblemsImg from "@/assets/common-call-center-problems-and-their-solutions.jpg";
 
 const Blog = () => {
+  const blogRoutes = {
+    "Local Lead Generation": "/blog/local-lead-generation",
+    "Essential Tips for Handling Sales Objections Over the Phone":
+      "/blog/sales-objections-phone",
+    "Phone Leads: 5 Most Overlooked Channels That Drive Quality Phone Leads":
+      "/blog/phone-leads-channels",
+    "Solo Law Firm Marketing Strategies That Work":
+      "/blog/solo-law-firm-marketing",
+    "Bottom of Funnel Content for Lawyers":
+      "/blog/bottom-funnel-content-lawyers",
+    "Call Center Trends for 2024": "/blog/call-center-trends-2024",
+    "Call Center Sentiment Analysis": "/blog/call-center-sentiment-analysis",
+    "Middle of Funnel Content for Lawyers":
+      "/blog/middle-funnel-content-lawyers",
+    "What Is Virtual Queuing in a Call Center?":
+      "/blog/virtual-queuing-call-center",
+    "Common Call Center Problems and Their Solutions":
+      "/blog/call-center-problems-solutions",
+  };
+
   const blogPosts = [
     {
       title: "Local Lead Generation",
@@ -122,27 +151,6 @@ const Blog = () => {
     },
   ];
 
-  // Route mapping for blog posts
-  const blogRoutes = {
-    "Local Lead Generation": "/blog/local-lead-generation",
-    "Essential Tips for Handling Sales Objections Over the Phone":
-      "/blog/sales-objections-phone",
-    "Phone Leads: 5 Most Overlooked Channels That Drive Quality Phone Leads":
-      "/blog/phone-leads-channels",
-    "Solo Law Firm Marketing Strategies That Work":
-      "/blog/solo-law-firm-marketing",
-    "Bottom of Funnel Content for Lawyers":
-      "/blog/bottom-funnel-content-lawyers",
-    "Call Center Trends for 2024": "/blog/call-center-trends-2024",
-    "Call Center Sentiment Analysis": "/blog/call-center-sentiment-analysis",
-    "Middle of Funnel Content for Lawyers":
-      "/blog/middle-funnel-content-lawyers",
-    "What Is Virtual Queuing in a Call Center?":
-      "/blog/virtual-queuing-call-center",
-    "Common Call Center Problems and Their Solutions":
-      "/blog/call-center-problems-solutions",
-  };
-
   const categories = [
     "All Posts",
     "Lead Generation",
@@ -161,22 +169,18 @@ const Blog = () => {
 
       <main>
         {/* Hero Section */}
-        <section className="relative py-24 overflow-hidden">
-          {/* Background Video */}
+        <section className="relative py-24 bg-hero-gradient overflow-hidden">
+          {/* Video Background */}
           <video
-            className="absolute inset-0 w-full h-full object-cover"
             autoPlay
             muted
             loop
             playsInline
+            className="absolute inset-0 w-full h-full object-cover"
           >
             <source src={TrueNorthVideo} type="video/mp4" />
-            Your browser does not support the video tag.
           </video>
-
-          {/* Background Gradient Overlay */}
           <div className="absolute inset-0 bg-hero-gradient opacity-60" />
-
           <div className="absolute inset-0 overflow-hidden">
             <svg
               className="absolute bottom-0 w-full h-32 text-surface-elevated opacity-20"
@@ -224,16 +228,13 @@ const Blog = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
               {blogPosts.map((post, index) => {
-                const postImage = post.image;
-                const postRoute =
-                  blogRoutes[post.title as keyof typeof blogRoutes];
                 return (
-                  <Link key={index} to={postRoute}>
+                  <Link key={index} to={blogRoutes[post.title]}>
                     <Card className="overflow-hidden bg-surface-elevated border-border hover:border-accent/30 transition-all duration-300 group cursor-pointer">
                       {/* Image */}
                       <div className="aspect-video overflow-hidden">
                         <img
-                          src={postImage}
+                          src={post.image}
                           alt={post.title}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         />

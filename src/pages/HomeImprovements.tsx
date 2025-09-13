@@ -15,19 +15,19 @@ import {
 import { Link } from "react-router-dom";
 import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
 
-const InsuranceIndustry = () => {
+const HomeImprovements = () => {
   const processSteps = [
     {
       icon: Search,
       title: "We find prospects",
       description:
-        "We swiftly identify and engage with prospective buyers when they are in the actual process of searching for insurance policies online. From there, we connect with them and evaluate their insurance needs.",
+        "We swiftly identify and engage with prospective buyers when they are in the actual process of searching for home improvement services online. From there, we connect with them and evaluate their home improvement needs.",
     },
     {
       icon: CheckCircle,
       title: "We qualify the lead",
       description:
-        "We then transfer the lead to our highly experienced in-house team that verifies the prospect's information and intent to purchase a policy. This process is done using our advanced routing technology.",
+        "We then transfer the lead to our highly experienced in-house team that verifies the prospect's information and intent to seek home improvement services. This process is done using our advanced routing technology.",
     },
     {
       icon: TrendingUp,
@@ -42,7 +42,7 @@ const InsuranceIndustry = () => {
       icon: Phone,
       title: "Qualified Calls",
       description:
-        "Connect with motivated prospects actively searching for insurance solutions.",
+        "Connect with motivated prospects actively searching for home improvement solutions.",
     },
     {
       icon: Users,
@@ -67,7 +67,7 @@ const InsuranceIndustry = () => {
   const stats = [
     { number: "95%", label: "Lead Quality Score" },
     { number: "3x", label: "Higher Conversion Rate" },
-    { number: "50+", label: "Insurance Partners" },
+    { number: "50+", label: "Home Improvement Partners" },
     { number: "24/7", label: "Lead Delivery" },
   ];
 
@@ -102,10 +102,10 @@ const InsuranceIndustry = () => {
 
           <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p className="text-accent font-medium uppercase tracking-wide text-sm mb-4">
-              Clients
+              Home Improvements Industry
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-foreground mb-6 leading-tight">
-              Reach Motivated Clients{" "}
+              Reach Motivated Home Improvement Clients{" "}
               <span className="bg-gradient-to-r from-accent to-accent-glow-light bg-clip-text text-transparent">
                 at Scale
               </span>
@@ -136,15 +136,16 @@ const InsuranceIndustry = () => {
           </div>
         </section>
 
-        {/* Insurance Industry Section */}
+        {/* Home Improvements Industry Section */}
         <section className="py-24 bg-background">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <p className="text-accent font-medium uppercase tracking-wide text-sm mb-4">
-                Insurance Industry
+                Home Improvements Industry
               </p>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-foreground mb-8">
-                Data Driven Digital Distribution for the Insurance Industry
+                Data Driven Digital Distribution for the Home Improvements
+                Industry
               </h2>
             </div>
 
@@ -203,11 +204,11 @@ const InsuranceIndustry = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl font-heading font-bold text-foreground mb-6">
-                Why Choose Our Insurance Lead Generation?
+                Why Choose Our Home Improvements Lead Generation?
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 We deliver high-quality, verified leads that convert into
-                profitable insurance policies for your business.
+                profitable home improvement clients for your business.
               </p>
             </div>
 
@@ -241,12 +242,12 @@ const InsuranceIndustry = () => {
             <Card className="max-w-4xl mx-auto p-12 text-center bg-gradient-to-r from-surface-elevated to-surface-subtle border-accent/20">
               <BarChart3 className="w-16 h-16 mx-auto mb-6 text-accent" />
               <h2 className="text-3xl font-heading font-bold text-foreground mb-6">
-                Ready to Scale Your Insurance Business?
+                Ready to Scale Your Home Improvements Business?
               </h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Join hundreds of insurance professionals who trust TrueNorth to
-                deliver high-quality leads and drive sustainable growth for
-                their business.
+                Join hundreds of home improvement professionals who trust
+                TrueNorth to deliver high-quality leads and drive sustainable
+                growth for their business.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button variant="hero" size="xl" asChild>
@@ -266,4 +267,4 @@ const InsuranceIndustry = () => {
   );
 };
 
-export default InsuranceIndustry;
+export default HomeImprovements;

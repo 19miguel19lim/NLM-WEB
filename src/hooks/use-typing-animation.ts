@@ -2,77 +2,60 @@ import { useState, useEffect } from "react";
 
 interface UseTypingAnimationOptions {
   texts: string[];
-  speed?: number;
-  delay?: number;
-  loop?: boolean;
+  typingSpeed?: number;
+  deletingSpeed?: number;
   pauseTime?: number;
+  loop?: boolean;
 }
 
 export const useTypingAnimation = ({
   texts,
-  speed = 100,
-  delay = 1000,
-  loop = false,
+  typingSpeed = 100,
+  deletingSpeed = 50,
   pauseTime = 2000,
+  loop = true,
 }: UseTypingAnimationOptions) => {
   const [displayedText, setDisplayedText] = useState("");
-  const [currentIndex, setCurrentIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const [isPaused, setIsPaused] = useState(false);
   const [textIndex, setTextIndex] = useState(0);
 
   useEffect(() => {
-    if (isPaused) return;
-
     const currentText = texts[textIndex];
-    if (!currentText) return;
 
     const timeout = setTimeout(
       () => {
-        if (!isDeleting && currentIndex < currentText.length) {
-          // Typing forward
-          setDisplayedText(currentText.slice(0, currentIndex + 1));
-          setCurrentIndex(currentIndex + 1);
-        } else if (isDeleting && currentIndex > 0) {
-          // Deleting backward
-          setDisplayedText(currentText.slice(0, currentIndex - 1));
-          setCurrentIndex(currentIndex - 1);
-        } else if (!isDeleting && currentIndex === currentText.length) {
-          // Finished typing, pause then start deleting
-          setTimeout(() => {
-            setIsDeleting(true);
-          }, pauseTime);
-        } else if (isDeleting && currentIndex === 0) {
-          // Finished deleting, move to next text
-          const nextTextIndex = (textIndex + 1) % texts.length;
-          setTextIndex(nextTextIndex);
-          setIsDeleting(false);
-          setCurrentIndex(0);
+        if (!isDeleting) {
+          if (displayedText.length < currentText.length) {
+            setDisplayedText(currentText.slice(0, displayedText.length + 1));
+          } else {
+            setTimeout(() => setIsDeleting(true), pauseTime);
+          }
+        } else {
+          if (displayedText.length > 0) {
+            setDisplayedText(displayedText.slice(0, -1));
+          } else {
+            setIsDeleting(false);
+            if (loop) {
+              setTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
+            }
+          }
         }
       },
-      isDeleting ? speed / 2 : speed
-    ); // Delete faster than type
+      isDeleting ? deletingSpeed : typingSpeed
+    );
 
     return () => clearTimeout(timeout);
   }, [
-    currentIndex,
+    displayedText,
     isDeleting,
     textIndex,
     texts,
-    speed,
-    loop,
+    typingSpeed,
+    deletingSpeed,
     pauseTime,
-    isPaused,
+    loop,
   ]);
-
-  useEffect(() => {
-    // Initial delay before starting animation
-    const initialTimeout = setTimeout(() => {
-      setIsPaused(false);
-    }, delay);
-
-    return () => clearTimeout(initialTimeout);
-  }, [delay]);
 
   return displayedText;
 };
+

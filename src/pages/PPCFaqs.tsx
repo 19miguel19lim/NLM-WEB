@@ -11,13 +11,13 @@ import {
   Settings,
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
 
 const PPCFaqs = () => {
   const faqs = [
@@ -110,22 +110,18 @@ const PPCFaqs = () => {
 
       <main>
         {/* Hero Section */}
-        <section className="relative py-24 overflow-hidden">
-          {/* Background Video */}
+        <section className="relative py-24 bg-hero-gradient overflow-hidden">
+          {/* Video Background */}
           <video
-            className="absolute inset-0 w-full h-full object-cover"
             autoPlay
             muted
             loop
             playsInline
+            className="absolute inset-0 w-full h-full object-cover"
           >
             <source src={TrueNorthVideo} type="video/mp4" />
-            Your browser does not support the video tag.
           </video>
-
-          {/* Background Gradient Overlay */}
           <div className="absolute inset-0 bg-hero-gradient opacity-60" />
-
           <div className="absolute inset-0 overflow-hidden">
             <svg
               className="absolute bottom-0 w-full h-32 text-surface-elevated opacity-20"

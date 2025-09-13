@@ -13,53 +13,47 @@ import TrueNorthHappyCEO from "@/assets/trueNorth-happy-ceo.jpg";
 const Experience = () => {
   const milestones = [
     {
-      year: "2010",
+      year: "2022",
       title: "Foundation",
       description:
-        "Started as a small digital marketing consultancy with a vision to transform how businesses grow online.",
+        "Started as a SaaS company specializing in SEO and web design, helping businesses establish their online presence.",
     },
     {
-      year: "2015",
-      title: "Expansion",
+      year: "2023",
+      title: "Transition",
       description:
-        "Expanded our team and services, becoming a full-service growth partner for ambitious businesses.",
+        "Pivoted to affiliate marketing, developing performance-based strategies that deliver measurable results for our clients.",
     },
     {
-      year: "2020",
-      title: "Innovation",
+      year: "2025",
+      title: "Growth",
       description:
-        "Pioneered new performance marketing strategies and became industry leaders in customer acquisition.",
-    },
-    {
-      year: "2024",
-      title: "Excellence",
-      description:
-        "Celebrating over 14 years of partnership excellence with 500+ successful client relationships.",
+        "Evolved into a comprehensive performance marketing agency, leveraging Google and Meta platforms to drive ROI for business owners and CEOs.",
     },
   ];
 
   const achievements = [
     {
       icon: Calendar,
-      metric: "14+",
+      metric: "3+",
       label: "Years in Business",
-      description: "Over a decade of proven experience",
+      description: "Rapid growth and innovation",
     },
     {
       icon: Users,
-      metric: "500+",
+      metric: "100+",
       label: "Happy Clients",
       description: "Businesses we've helped scale",
     },
     {
       icon: Building,
-      metric: "50+",
+      metric: "3",
       label: "Industries",
-      description: "Diverse sectors we've mastered",
+      description: "Insurance, Debt Relief, Home Improvements",
     },
     {
       icon: TrendingUp,
-      metric: "300%",
+      metric: "250%",
       label: "Average ROI",
       description: "Typical return on investment",
     },
@@ -86,7 +80,7 @@ const Experience = () => {
         <div className="relative mb-16 rounded-2xl overflow-hidden">
           <img
             src={TrueNorthHappyCEO}
-            alt="TrueNorth CEO - 14 Years of Innovation"
+            alt="TrueNorth CEO"
             className="w-full h-auto object-cover"
           />
         </div>

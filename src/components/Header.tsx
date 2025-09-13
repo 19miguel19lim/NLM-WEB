@@ -13,10 +13,22 @@ const Header = () => {
 
   const industriesItems = [
     {
-      label: "Insurance Industry",
-      href: "/insurance-industry",
+      label: "Insurance",
+      href: "/insurance",
       description:
         "Lead generation and customer acquisition for insurance companies",
+    },
+    {
+      label: "Debt Relief",
+      href: "/debt-relief",
+      description:
+        "Lead generation and customer acquisition for debt relief companies",
+    },
+    {
+      label: "Home Improvements",
+      href: "/home-improvements",
+      description:
+        "Lead generation and customer acquisition for home improvement companies",
     },
   ];
 
@@ -59,13 +71,19 @@ const Header = () => {
             <img
               src={TrueNorthLogo}
               alt="TrueNorth Logo"
-              className="h-14 lg:h-24 w-auto"
+              className="h-24 w-auto"
             />
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
             <DropdownMenu trigger="Industries" items={industriesItems} />
+            <div className="relative group">
+              <button className="flex items-center space-x-1 text-foreground hover:text-accent transition-colors">
+                <span>Who We Help</span>
+                <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
+              </button>
+            </div>
             <DropdownMenu trigger="Why TrueNorth™" items={whyTrueNorthItems} />
             <DropdownMenu trigger="Resources" items={resourcesItems} />
           </nav>
@@ -101,6 +119,9 @@ const Header = () => {
           <nav className="flex flex-col space-y-4 pt-4 border-t border-border">
             <button className="text-left text-foreground hover:text-accent transition-colors py-2">
               Industries
+            </button>
+            <button className="text-left text-foreground hover:text-accent transition-colors py-2">
+              Who We Help
             </button>
             <button className="text-left text-foreground hover:text-accent transition-colors py-2">
               Why TrueNorth™

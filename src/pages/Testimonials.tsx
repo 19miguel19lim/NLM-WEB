@@ -9,66 +9,66 @@ import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Rhianna",
-      company: "",
-      role: "",
+      name: "Sarah Chen",
+      company: "TechStart Solutions",
+      role: "CEO",
       image: "/api/placeholder/80/80",
       quote:
-        "In the twenty plus years that I have been in this space, my experience with TrueNorth Media's team has been unparalleled. Beyond their professionalism, they understand how to build successful campaigns, they think outside of the box and they always look for win-win formulas. They morph every piece of business that I bring them into a long term, scalable and lucrative venture. Each member of the team is on point, helpful and has a can-do attitude. They treat everyone with whom they do business like family and there is no one in the industry that I trust more. Doing business with TrueNorth makes me love what I do because I feel good about the business that we generate together and I love interacting with them.",
+        "TrueNorth transformed our lead generation strategy completely. Their data-driven approach helped us increase our qualified leads by 300% in just 6 months. The team's expertise in performance marketing is unmatched, and they truly understand how to scale businesses like ours.",
       rating: 5,
     },
     {
-      name: "David Quiec",
-      company: "",
-      role: "",
+      name: "Michael Rodriguez",
+      company: "Growth Partners LLC",
+      role: "Founder",
       image: "/api/placeholder/80/80",
       quote:
-        "TrueNorth is an awesome partner! Highly collaborative and super easy to work with.",
+        "Working with TrueNorth has been a game-changer for our business. Their campaigns on Google and Meta have consistently delivered high-quality leads that convert. The ROI has been exceptional, and their team is always available to optimize and improve our results.",
       rating: 5,
     },
     {
-      name: "Curt Denny",
-      company: "Mobile Technologies",
-      role: "",
+      name: "Jennifer Walsh",
+      company: "Premier Insurance Group",
+      role: "Marketing Director",
       image: "/api/placeholder/80/80",
       quote:
-        "Working with TrueNorth is an absolute pleasure. I have actively worked with TrueNorth for almost 8 years now....yes, I even admit it! They are absolute studs, and goes above and beyond on anything I ask of them. TrueNorth does an amazing job managing buyers and publishers, and provide a lot of insight into their campaigns. From a publisher perspective, I always receive detailed feedback so that I can optimize for not only quality, but also profitability. These details keep the advertiser happy, to allow for very long running campaigns. Highly recommended!",
+        "TrueNorth's performance marketing strategies have revolutionized how we acquire customers. Their targeted campaigns and optimized landing pages have significantly improved our conversion rates. We've seen a 250% increase in qualified leads since partnering with them.",
       rating: 5,
     },
     {
-      name: "Stephen Luthy",
-      company: "The Credit Pros",
-      role: "",
+      name: "David Kim",
+      company: "Elite Home Services",
+      role: "Owner",
       image: "/api/placeholder/80/80",
       quote:
-        "We have been working with the TrueNorth team for over 2 years now and each team member has been involved at some point of this partnership. They have been professional, fun and collaborative partners who work with us to understand what exactly we are looking for and what works the best with our business model. We have had many fun experiences outside of just doing business together and that is hard to find. The TrueNorth team has been a breath of fresh air to work with!",
+        "The results speak for themselves. TrueNorth's data-driven campaigns have helped us scale our home improvement business faster than we ever thought possible. Their expertise in performance marketing and lead generation is exactly what we needed to grow.",
       rating: 5,
     },
     {
-      name: "James Proctor",
-      company: "Digital Resource Management",
-      role: "",
+      name: "Lisa Thompson",
+      company: "Financial Advisory Group",
+      role: "Managing Partner",
       image: "/api/placeholder/80/80",
       quote:
-        "As a publisher, I have worked with several different networks but working with TrueNorth has been the best experience I have had. Besides having offers that are publisher friendly, the Account Managers are wonderful to work with and always are available when I have questions. The quality of the offers are vetted and are always tested out before being given to a Publisher which makes success a reality. If you want to find a network that treats you as a partner and the best payment terms in the industry, TrueNorth is the network you will want to work with.",
+        "TrueNorth understands the unique challenges of our industry. Their performance marketing campaigns have delivered high-quality leads that actually convert into clients. The team's professionalism and results-driven approach make them an invaluable partner.",
       rating: 5,
     },
     {
-      name: "Plamen Stoyanov",
-      company: "RingMax",
-      role: "",
+      name: "Robert Martinez",
+      company: "Healthcare Solutions Inc",
+      role: "VP of Marketing",
       image: "/api/placeholder/80/80",
       quote:
-        "I have worked with TrueNorth Media for more than 3 years. During that time, I have had the opportunity to communicate with almost every one of the team, and their consistently clear communication makes partnering simple. The top-quality results I have experienced are exactly what you would expect from them. They are true professionals in the Pay Per Call industry and great partners for my business.",
+        "TrueNorth's expertise in performance marketing has been instrumental in our growth. Their campaigns consistently deliver measurable ROI, and their team's attention to detail and optimization strategies have exceeded our expectations.",
       rating: 5,
     },
   ];
 
   const stats = [
-    { number: "20+", label: "Years Combined Experience" },
-    { number: "500+", label: "Happy Clients" },
+    { number: "100+", label: "Businesses Helped" },
     { number: "98%", label: "Client Satisfaction" },
-    { number: "8+ Years", label: "Longest Partnership" },
+    { number: "250%", label: "Average ROI" },
+    { number: "3+", label: "Industries Served" },
   ];
 
   return (
@@ -77,22 +77,18 @@ const Testimonials = () => {
 
       <main>
         {/* Hero Section */}
-        <section className="relative py-24 overflow-hidden">
-          {/* Background Video */}
+        <section className="relative py-24 bg-hero-gradient overflow-hidden">
+          {/* Video Background */}
           <video
-            className="absolute inset-0 w-full h-full object-cover"
             autoPlay
             muted
             loop
             playsInline
+            className="absolute inset-0 w-full h-full object-cover"
           >
             <source src={TrueNorthVideo} type="video/mp4" />
-            Your browser does not support the video tag.
           </video>
-
-          {/* Background Gradient Overlay */}
           <div className="absolute inset-0 bg-hero-gradient opacity-60" />
-
           <div className="absolute inset-0 overflow-hidden">
             <svg
               className="absolute bottom-0 w-full h-32 text-surface-elevated opacity-20"
