@@ -78,19 +78,24 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
             <DropdownMenu trigger="Industries" items={industriesItems} />
-            <div className="relative group">
-              <button className="flex items-center space-x-1 text-foreground hover:text-accent transition-colors">
-                <span>Who We Help</span>
-                <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
-              </button>
-            </div>
+            <Link
+              to="/services"
+              className="text-foreground hover:text-accent transition-colors"
+            >
+              Our Services
+            </Link>
             <DropdownMenu trigger="Why TrueNorth™" items={whyTrueNorthItems} />
             <DropdownMenu trigger="Resources" items={resourcesItems} />
           </nav>
 
           {/* Desktop CTA Button */}
           <div className="hidden lg:flex">
-            <Button variant="nav-cta" size="lg" asChild>
+            <Button
+              variant="default"
+              size="lg"
+              className="bg-orange-500 hover:bg-orange-600 text-white border-0 font-semibold tracking-wide transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+              asChild
+            >
               <Link to="/contact">Get Started</Link>
             </Button>
           </div>
@@ -120,9 +125,12 @@ const Header = () => {
             <button className="text-left text-foreground hover:text-accent transition-colors py-2">
               Industries
             </button>
-            <button className="text-left text-foreground hover:text-accent transition-colors py-2">
-              Who We Help
-            </button>
+            <Link
+              to="/services"
+              className="text-left text-foreground hover:text-accent transition-colors py-2 block"
+            >
+              Our Services
+            </Link>
             <button className="text-left text-foreground hover:text-accent transition-colors py-2">
               Why TrueNorth™
             </button>
@@ -130,7 +138,12 @@ const Header = () => {
               Resources
             </button>
             <div className="pt-4">
-              <Button variant="nav-cta" size="lg" className="w-full" asChild>
+              <Button
+                variant="default"
+                size="lg"
+                className="w-full bg-orange-500 hover:bg-orange-600 text-white border-0 font-semibold tracking-wide transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+                asChild
+              >
                 <Link to="/contact">Get Started</Link>
               </Button>
             </div>

@@ -32,7 +32,7 @@ const Hero = () => {
       </video>
 
       {/* Background Gradient Overlay */}
-      <div className="absolute inset-0 bg-hero-gradient opacity-60" />
+      <div className="absolute inset-0 bg-hero-gradient opacity-30" />
 
       {/* Wave Elements */}
       <div className="absolute inset-0 overflow-hidden">
@@ -88,10 +88,12 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <Button variant="hero" size="xl" className="min-w-[200px]" asChild>
-              <Link to="/contact">Get Started</Link>
-            </Button>
-            <Button variant="nav" size="xl" className="min-w-[200px]" asChild>
+            <Button
+              variant="default"
+              size="xl"
+              className="min-w-[200px] bg-orange-500 hover:bg-orange-600 text-white border-0 font-semibold tracking-wide transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+              asChild
+            >
               <Link to="/contact">Contact Us</Link>
             </Button>
           </div>

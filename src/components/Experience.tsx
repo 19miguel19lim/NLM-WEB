@@ -159,7 +159,12 @@ const Experience = () => {
               trajectory with TrueNorth. Let's discuss how we can help you
               achieve your goals.
             </p>
-            <Button variant="hero" size="lg" className="group" asChild>
+            <Button
+              variant="default"
+              size="lg"
+              className="group bg-orange-500 hover:bg-orange-600 text-white border-0 font-semibold tracking-wide transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+              asChild
+            >
               <Link to="/contact">
                 Start Your Partnership
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />

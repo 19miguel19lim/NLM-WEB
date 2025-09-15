@@ -57,20 +57,54 @@ const Footer = () => {
                 Services
               </h3>
               <ul className="space-y-3">
-                {[
-                  "Performance Marketing",
-                  "Customer Acquisition",
-                  "Growth Strategy",
-                  "Digital Advertising",
-                  "Conversion Optimization",
-                  "Analytics & Reporting",
-                ].map((service) => (
-                  <li key={service}>
-                    <button className="text-muted-foreground hover:text-accent transition-colors text-left">
-                      {service}
-                    </button>
-                  </li>
-                ))}
+                <li>
+                  <Link
+                    to="/services"
+                    className="text-muted-foreground hover:text-accent transition-colors text-left block"
+                  >
+                    Performance Marketing
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/services"
+                    className="text-muted-foreground hover:text-accent transition-colors text-left block"
+                  >
+                    Customer Acquisition
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/services"
+                    className="text-muted-foreground hover:text-accent transition-colors text-left block"
+                  >
+                    Growth Strategy
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/services"
+                    className="text-muted-foreground hover:text-accent transition-colors text-left block"
+                  >
+                    Digital Advertising
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/services"
+                    className="text-muted-foreground hover:text-accent transition-colors text-left block"
+                  >
+                    Conversion Optimization
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/services"
+                    className="text-muted-foreground hover:text-accent transition-colors text-left block"
+                  >
+                    Analytics & Reporting
+                  </Link>
+                </li>
               </ul>
             </div>
 
@@ -80,15 +114,30 @@ const Footer = () => {
                 Industries
               </h3>
               <ul className="space-y-3">
-                {["Insurance", "Debt Relief", "Home Improvements"].map(
-                  (industry) => (
-                    <li key={industry}>
-                      <button className="text-muted-foreground hover:text-accent transition-colors text-left">
-                        {industry}
-                      </button>
-                    </li>
-                  )
-                )}
+                <li>
+                  <Link
+                    to="/insurance"
+                    className="text-muted-foreground hover:text-accent transition-colors text-left block"
+                  >
+                    Insurance
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/debt-relief"
+                    className="text-muted-foreground hover:text-accent transition-colors text-left block"
+                  >
+                    Debt Relief
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/home-improvements"
+                    className="text-muted-foreground hover:text-accent transition-colors text-left block"
+                  >
+                    Home Improvements
+                  </Link>
+                </li>
               </ul>
             </div>
 
@@ -112,7 +161,7 @@ const Footer = () => {
                   <div>
                     <p className="text-muted-foreground text-sm">Phone</p>
                     <button className="text-foreground hover:text-accent transition-colors">
-                      +1 (555) 123-4567
+                      +1 833 6627956
                     </button>
                   </div>
                 </div>
@@ -121,43 +170,21 @@ const Footer = () => {
                   <div>
                     <p className="text-muted-foreground text-sm">Office</p>
                     <p className="text-foreground">
-                      123 Business Ave
+                      30 N Gould St Ste N
                       <br />
-                      Suite 100
-                      <br />
-                      New York, NY 10001
+                      Sheridan, WY 82801 USA
                     </p>
                   </div>
                 </div>
               </div>
               <Link to="/contact">
-                <Button variant="hero" className="w-full">
+                <Button
+                  variant="default"
+                  className="w-full mt-6 bg-orange-500 hover:bg-orange-600 text-white border-0 font-semibold tracking-wide transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+                >
                   Schedule a Call
                 </Button>
               </Link>
-            </div>
-          </div>
-        </div>
-
-        {/* Newsletter */}
-        <div className="py-8 border-t border-border">
-          <div className="text-center space-y-4">
-            <h3 className="text-xl font-heading font-semibold text-foreground">
-              Stay Updated with Growth Insights
-            </h3>
-            <p className="text-muted-foreground max-w-md mx-auto">
-              Get the latest marketing strategies and growth tips delivered to
-              your inbox.
-            </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 w-full sm:w-auto px-4 py-2 rounded-lg bg-surface-elevated border border-border focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20 text-foreground placeholder-muted-foreground transition-all duration-200"
-              />
-              <Button variant="default" className="w-full sm:w-auto">
-                Subscribe
-              </Button>
             </div>
           </div>
         </div>

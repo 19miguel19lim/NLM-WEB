@@ -92,13 +92,10 @@ const Features = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               to="/contact"
-              className="px-8 py-3 bg-accent text-accent-foreground rounded-lg font-medium hover:bg-accent/90 transition-colors shadow-md hover:shadow-lg"
+              className="px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-lg font-medium transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl inline-block"
             >
-              Start Your Journey
-            </Link>
-            <button className="px-8 py-3 border border-border text-foreground rounded-lg font-medium hover:bg-surface-elevated transition-colors">
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
       </div>

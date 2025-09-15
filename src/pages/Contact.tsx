@@ -110,9 +110,9 @@ const Contact = () => {
 
                   <Button
                     type="submit"
-                    variant="hero"
+                    variant="default"
                     size="lg"
-                    className="w-full"
+                    className="w-full bg-orange-500 hover:bg-orange-600 text-white border-0 font-semibold tracking-wide transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
                   >
                     Send Message
                   </Button>
@@ -138,10 +138,7 @@ const Contact = () => {
                     <Phone className="w-5 h-5 text-accent mt-1" />
                     <div>
                       <h4 className="font-medium text-foreground">Phone</h4>
-                      <p className="text-muted-foreground">
-                        1-800-TRUENORTH-123
-                      </p>
-                      <p className="text-muted-foreground">1-800-726-0123</p>
+                      <p className="text-muted-foreground">+1 833 6627956</p>
                     </div>
                   </div>
 
@@ -150,10 +147,7 @@ const Contact = () => {
                     <div>
                       <h4 className="font-medium text-foreground">Email</h4>
                       <p className="text-muted-foreground">
-                        hello@truenorthmobile.com
-                      </p>
-                      <p className="text-muted-foreground">
-                        partnerships@truenorthmobile.com
+                        hello@truenorthmedia.llc
                       </p>
                     </div>
                   </div>
@@ -163,11 +157,9 @@ const Contact = () => {
                     <div>
                       <h4 className="font-medium text-foreground">Office</h4>
                       <p className="text-muted-foreground">
-                        123 Business Drive
+                        30 N Gould St Ste N
                         <br />
-                        Suite 456
-                        <br />
-                        Los Angeles, CA 90210
+                        Sheridan, WY 82801 USA
                       </p>
                     </div>
                   </div>

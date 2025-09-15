@@ -251,8 +251,13 @@ const PPCFaqs = () => {
                 <p className="text-muted-foreground text-sm mb-4">
                   See our platform in action with a personalized demo.
                 </p>
-                <Button variant="nav" size="sm" className="w-full">
-                  Request Demo
+                <Button
+                  variant="default"
+                  size="sm"
+                  className="w-full bg-orange-500 hover:bg-orange-600 text-white border-0 font-medium transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+                  asChild
+                >
+                  <Link to="/contact">Request Demo</Link>
                 </Button>
               </Card>
 
@@ -264,8 +269,13 @@ const PPCFaqs = () => {
                 <p className="text-muted-foreground text-sm mb-4">
                   Access our knowledge base and get instant answers.
                 </p>
-                <Button variant="nav" size="sm" className="w-full">
-                  Visit Help Center
+                <Button
+                  variant="default"
+                  size="sm"
+                  className="w-full bg-orange-500 hover:bg-orange-600 text-white border-0 font-medium transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+                  asChild
+                >
+                  <Link to="/contact">Visit Help Center</Link>
                 </Button>
               </Card>
             </div>
@@ -285,18 +295,13 @@ const PPCFaqs = () => {
                 high-quality phone leads and drive sustainable growth.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Button variant="hero" size="xl" asChild>
-                  <Link to="/contact">Get Started Today</Link>
-                </Button>
                 <Button
-                  variant="nav"
+                  variant="default"
                   size="xl"
-                  onClick={() =>
-                    (window.location.href =
-                      "mailto:help@truenorthmediagroup.com")
-                  }
+                  className="bg-orange-500 hover:bg-orange-600 text-white border-0 font-semibold tracking-wide transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+                  asChild
                 >
-                  Contact Our Team
+                  <Link to="/contact">Get Started Today</Link>
                 </Button>
               </div>
             </Card>

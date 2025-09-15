@@ -200,7 +200,12 @@ const About = () => {
                 We're here to answer any question you may have and help you
                 start your journey with TrueNorth.
               </p>
-              <Button variant="hero" size="xl" asChild>
+              <Button
+                variant="default"
+                size="xl"
+                className="bg-orange-500 hover:bg-orange-600 text-white border-0 font-semibold tracking-wide transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+                asChild
+              >
                 <Link to="/contact">Get Started Today</Link>
               </Button>
             </Card>

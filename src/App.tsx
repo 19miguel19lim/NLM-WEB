@@ -14,6 +14,7 @@ import Testimonials from "./pages/Testimonials";
 import Blog from "./pages/Blog";
 import PPCFaqs from "./pages/PPCFaqs";
 import Contact from "./pages/Contact";
+import Services from "./pages/Services";
 import NotFound from "./pages/NotFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
@@ -48,6 +49,7 @@ const App = () => (
           <Route path="/blog" element={<Blog />} />
           <Route path="/ppc-faqs" element={<PPCFaqs />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/services" element={<Services />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="/cookie-policy" element={<CookiePolicy />} />

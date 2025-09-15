@@ -249,11 +249,13 @@ const Testimonials = () => {
                 success story together.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Button variant="hero" size="xl" asChild>
+                <Button
+                  variant="default"
+                  size="xl"
+                  className="bg-orange-500 hover:bg-orange-600 text-white border-0 font-semibold tracking-wide transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+                  asChild
+                >
                   <Link to="/contact">Get Started Today</Link>
-                </Button>
-                <Button variant="nav" size="xl">
-                  Schedule a Consultation
                 </Button>
               </div>
             </Card>
