@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Quote, Star, Users } from "lucide-react";
 import { Link } from "react-router-dom";
-import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
+import NortherLeadsVideo from "@/assets/trueNorthVideo.mp4";
 
 const Testimonials = () => {
   const testimonials = [
@@ -14,7 +14,7 @@ const Testimonials = () => {
       role: "CEO",
       image: "/api/placeholder/80/80",
       quote:
-        "TrueNorth transformed our lead generation strategy completely. Their data-driven approach helped us increase our qualified leads by 300% in just 6 months. The team's expertise in performance marketing is unmatched, and they truly understand how to scale businesses like ours.",
+        "Norther Leads Media transformed our lead generation strategy completely. Their data-driven approach helped us increase our qualified leads by 300% in just 6 months. The team's expertise in performance marketing is unmatched, and they truly understand how to scale businesses like ours.",
       rating: 5,
     },
     {
@@ -23,7 +23,7 @@ const Testimonials = () => {
       role: "Founder",
       image: "/api/placeholder/80/80",
       quote:
-        "Working with TrueNorth has been a game-changer for our business. Their campaigns on Google and Meta have consistently delivered high-quality leads that convert. The ROI has been exceptional, and their team is always available to optimize and improve our results.",
+        "Working with Norther Leads Media has been a game-changer for our business. Their campaigns on Google and Meta have consistently delivered high-quality leads that convert. The ROI has been exceptional, and their team is always available to optimize and improve our results.",
       rating: 5,
     },
     {
@@ -32,7 +32,7 @@ const Testimonials = () => {
       role: "Marketing Director",
       image: "/api/placeholder/80/80",
       quote:
-        "TrueNorth's performance marketing strategies have revolutionized how we acquire customers. Their targeted campaigns and optimized landing pages have significantly improved our conversion rates. We've seen a 250% increase in qualified leads since partnering with them.",
+        "Norther Leads Media's performance marketing strategies have revolutionized how we acquire customers. Their targeted campaigns and optimized landing pages have significantly improved our conversion rates. We've seen a 250% increase in qualified leads since partnering with them.",
       rating: 5,
     },
     {
@@ -41,7 +41,7 @@ const Testimonials = () => {
       role: "Owner",
       image: "/api/placeholder/80/80",
       quote:
-        "The results speak for themselves. TrueNorth's data-driven campaigns have helped us scale our home improvement business faster than we ever thought possible. Their expertise in performance marketing and lead generation is exactly what we needed to grow.",
+        "The results speak for themselves. Norther Leads Media's data-driven campaigns have helped us scale our home improvement business faster than we ever thought possible. Their expertise in performance marketing and lead generation is exactly what we needed to grow.",
       rating: 5,
     },
     {
@@ -50,7 +50,7 @@ const Testimonials = () => {
       role: "Managing Partner",
       image: "/api/placeholder/80/80",
       quote:
-        "TrueNorth understands the unique challenges of our industry. Their performance marketing campaigns have delivered high-quality leads that actually convert into clients. The team's professionalism and results-driven approach make them an invaluable partner.",
+        "Norther Leads Media understands the unique challenges of our industry. Their performance marketing campaigns have delivered high-quality leads that actually convert into clients. The team's professionalism and results-driven approach make them an invaluable partner.",
       rating: 5,
     },
     {
@@ -59,7 +59,7 @@ const Testimonials = () => {
       role: "VP of Marketing",
       image: "/api/placeholder/80/80",
       quote:
-        "TrueNorth's expertise in performance marketing has been instrumental in our growth. Their campaigns consistently deliver measurable ROI, and their team's attention to detail and optimization strategies have exceeded our expectations.",
+        "Norther Leads Media's expertise in performance marketing has been instrumental in our growth. Their campaigns consistently deliver measurable ROI, and their team's attention to detail and optimization strategies have exceeded our expectations.",
       rating: 5,
     },
   ];
@@ -86,7 +86,7 @@ const Testimonials = () => {
             playsInline
             className="absolute inset-0 w-full h-full object-cover"
           >
-            <source src={TrueNorthVideo} type="video/mp4" />
+            <source src={NortherLeadsVideo} type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-hero-gradient opacity-60" />
           <div className="absolute inset-0 overflow-hidden">
@@ -207,7 +207,8 @@ const Testimonials = () => {
               </h2>
               <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
                 Join hundreds of satisfied clients who have transformed their
-                business with TrueNorth's performance marketing solutions.
+                business with Norther Leads Media's performance marketing
+                solutions.
               </p>
 
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center opacity-60">
@@ -244,9 +245,9 @@ const Testimonials = () => {
                 Ready to Join Our Success Stories?
               </h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Experience the TrueNorth difference and see why our clients
-                trust us as their strategic growth partner. Let's write your
-                success story together.
+                Experience the Norther Leads Media difference and see why our
+                clients trust us as their strategic growth partner. Let's write
+                your success story together.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button

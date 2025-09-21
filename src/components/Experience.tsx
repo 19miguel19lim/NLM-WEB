@@ -8,7 +8,7 @@ import {
   TrendingUp,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import TrueNorthHappyCEO from "@/assets/trueNorth-happy-ceo.jpg";
+import NortherLeadsHappyCEO from "@/assets/trueNorth-happy-ceo.jpg";
 
 const Experience = () => {
   const milestones = [
@@ -68,7 +68,7 @@ const Experience = () => {
             Know More About Us
           </p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-foreground mb-6">
-            The TrueNorth Experience
+            The Norther Leads Media Experience
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
             How we rose up to become leaders in the performance marketing
@@ -79,8 +79,8 @@ const Experience = () => {
         {/* Hero Image */}
         <div className="relative mb-16 rounded-2xl overflow-hidden">
           <img
-            src={TrueNorthHappyCEO}
-            alt="TrueNorth CEO"
+            src={NortherLeadsHappyCEO}
+            alt="Norther Leads Media CEO"
             className="w-full h-auto object-cover"
           />
         </div>
@@ -156,8 +156,8 @@ const Experience = () => {
             </h3>
             <p className="text-muted-foreground mb-6 max-w-xl mx-auto">
               Join hundreds of businesses that have transformed their growth
-              trajectory with TrueNorth. Let's discuss how we can help you
-              achieve your goals.
+              trajectory with Norther Leads Media. Let's discuss how we can help
+              you achieve your goals.
             </p>
             <Button
               variant="default"

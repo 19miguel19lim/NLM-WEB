@@ -14,7 +14,7 @@ import {
   Users,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
+import NortherLeadsVideo from "@/assets/trueNorthVideo.mp4";
 import LeadGenerationImg from "@/assets/lead-generation.jpg";
 import SalesObjectionsImg from "@/assets/Essential-tips-for-handling-sales-obejections-over-the-phone.jpg";
 import PhoneLeadsImg from "@/assets/phone-lead-5.jpg";
@@ -54,7 +54,7 @@ const Blog = () => {
         "Discover the most effective strategies for generating high-quality local leads that convert into paying customers.",
       category: "Lead Generation",
       date: "Dec 15, 2024",
-      author: "TrueNorth Team",
+      author: "Norther Leads Media Team",
       readTime: "5 min read",
       image: LeadGenerationImg,
     },
@@ -64,7 +64,7 @@ const Blog = () => {
         "Master the art of phone sales by learning how to effectively handle common objections and close more deals.",
       category: "Sales Strategy",
       date: "Dec 10, 2024",
-      author: "TrueNorth Team",
+      author: "Norther Leads Media Team",
       readTime: "7 min read",
       image: SalesObjectionsImg,
     },
@@ -75,7 +75,7 @@ const Blog = () => {
         "Explore untapped channels that can dramatically increase your phone lead volume and quality.",
       category: "Marketing Channels",
       date: "Dec 5, 2024",
-      author: "TrueNorth Team",
+      author: "Norther Leads Media Team",
       readTime: "6 min read",
       image: PhoneLeadsImg,
     },
@@ -85,7 +85,7 @@ const Blog = () => {
         "Proven marketing strategies specifically designed for solo practitioners to grow their legal practice.",
       category: "Legal Marketing",
       date: "Nov 28, 2024",
-      author: "TrueNorth Team",
+      author: "Norther Leads Media Team",
       readTime: "8 min read",
       image: SoloLawFirmImg,
     },
@@ -95,7 +95,7 @@ const Blog = () => {
         "Create compelling bottom-funnel content that converts prospects into clients for your law firm.",
       category: "Content Marketing",
       date: "Nov 20, 2024",
-      author: "TrueNorth Team",
+      author: "Norther Leads Media Team",
       readTime: "6 min read",
       image: BottomFunnelImg,
     },
@@ -105,7 +105,7 @@ const Blog = () => {
         "Stay ahead of the curve with the latest call center trends and technologies shaping the industry.",
       category: "Industry Trends",
       date: "Nov 15, 2024",
-      author: "TrueNorth Team",
+      author: "Norther Leads Media Team",
       readTime: "9 min read",
       image: CallCenterTrendsImg,
     },
@@ -115,7 +115,7 @@ const Blog = () => {
         "Learn how sentiment analysis can improve call center performance and customer satisfaction.",
       category: "Technology",
       date: "Nov 8, 2024",
-      author: "TrueNorth Team",
+      author: "Norther Leads Media Team",
       readTime: "7 min read",
       image: CallCenterSentimentImg,
     },
@@ -125,7 +125,7 @@ const Blog = () => {
         "Develop effective middle-funnel content that nurtures prospects and builds trust in your legal services.",
       category: "Content Marketing",
       date: "Nov 1, 2024",
-      author: "TrueNorth Team",
+      author: "Norther Leads Media Team",
       readTime: "5 min read",
       image: MiddleFunnelImg,
     },
@@ -135,7 +135,7 @@ const Blog = () => {
         "Understanding virtual queuing technology and how it can improve customer experience and operational efficiency.",
       category: "Technology",
       date: "Oct 25, 2024",
-      author: "TrueNorth Team",
+      author: "Norther Leads Media Team",
       readTime: "6 min read",
       image: VirtualQueuingImg,
     },
@@ -145,7 +145,7 @@ const Blog = () => {
         "Identify and solve the most common call center challenges that impact productivity and customer satisfaction.",
       category: "Operations",
       date: "Oct 18, 2024",
-      author: "TrueNorth Team",
+      author: "Norther Leads Media Team",
       readTime: "8 min read",
       image: CallCenterProblemsImg,
     },
@@ -178,7 +178,7 @@ const Blog = () => {
             playsInline
             className="absolute inset-0 w-full h-full object-cover"
           >
-            <source src={TrueNorthVideo} type="video/mp4" />
+            <source src={NortherLeadsVideo} type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-hero-gradient opacity-60" />
           <div className="absolute inset-0 overflow-hidden">
@@ -348,7 +348,7 @@ const Blog = () => {
                   size="xl"
                   onClick={() =>
                     (window.location.href =
-                      "mailto:help@truenorthmediagroup.com")
+                      "mailto:hello@northerleadsmedia.com")
                   }
                 >
                   I'm Already an Approved Affiliate

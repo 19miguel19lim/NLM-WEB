@@ -12,7 +12,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
+import NortherLeadsVideo from "@/assets/trueNorthVideo.mp4";
 
 const Services = () => {
   const services = [
@@ -105,7 +105,7 @@ const Services = () => {
             playsInline
             className="absolute inset-0 w-full h-full object-cover"
           >
-            <source src={TrueNorthVideo} type="video/mp4" />
+            <source src={NortherLeadsVideo} type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-hero-gradient opacity-60" />
           <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">

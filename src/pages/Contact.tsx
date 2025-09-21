@@ -6,7 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
+import NortherLeadsVideo from "@/assets/trueNorthVideo.mp4";
 
 const Contact = () => {
   return (
@@ -23,7 +23,7 @@ const Contact = () => {
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src={TrueNorthVideo} type="video/mp4" />
+          <source src={NortherLeadsVideo} type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-hero-gradient opacity-60" />
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
@@ -33,8 +33,9 @@ const Contact = () => {
               Business?
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Let's discuss how TrueNorth can help you achieve your customer
-              acquisition goals. Get started with a free consultation today.
+              Let's discuss how Norther Leads Media can help you achieve your
+              customer acquisition goals. Get started with a free consultation
+              today.
             </p>
           </div>
         </div>
@@ -147,7 +148,7 @@ const Contact = () => {
                     <div>
                       <h4 className="font-medium text-foreground">Email</h4>
                       <p className="text-muted-foreground">
-                        hello@truenorthmedia.llc
+                        hello@northerleadsmedia.com
                       </p>
                     </div>
                   </div>
@@ -185,7 +186,7 @@ const Contact = () => {
               <Card className="bg-gradient-primary border-0 text-primary-foreground shadow-elegant">
                 <CardContent className="p-8 text-center">
                   <h3 className="text-xl font-heading font-bold mb-4">
-                    Why Choose TrueNorth?
+                    Why Choose Norther Leads Media?
                   </h3>
                   <ul className="text-left space-y-2 text-primary-foreground/90">
                     <li>• Proven performance marketing strategies</li>

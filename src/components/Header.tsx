@@ -4,7 +4,7 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { DropdownMenu } from "@/components/ui/dropdown-menu-custom";
 import { Link } from "react-router-dom";
-import TrueNorthLogo from "@/assets/TrueNorth-Logo.png";
+import NorthernLeadsLogo from "@/assets/northerleads-light-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,7 +32,7 @@ const Header = () => {
     },
   ];
 
-  const whyTrueNorthItems = [
+  const whyNorthernLeadsItems = [
     {
       label: "About",
       href: "/about",
@@ -41,7 +41,7 @@ const Header = () => {
     {
       label: "Testimonials",
       href: "/testimonials",
-      description: "See what our clients say about working with TrueNorth",
+      description: "See what our clients say about working with Northern Leads Media",
     },
   ];
 
@@ -69,9 +69,9 @@ const Header = () => {
             className="flex items-center hover:opacity-80 transition-opacity"
           >
             <img
-              src={TrueNorthLogo}
-              alt="TrueNorth Logo"
-              className="h-24 w-auto"
+              src={NorthernLeadsLogo}
+              alt="Northern Leads Media Logo"
+              className="h-14 w-auto"
             />
           </Link>
 
@@ -84,7 +84,7 @@ const Header = () => {
             >
               Our Services
             </Link>
-            <DropdownMenu trigger="Why TrueNorth™" items={whyTrueNorthItems} />
+            <DropdownMenu trigger="Why Northern Leads™" items={whyNorthernLeadsItems} />
             <DropdownMenu trigger="Resources" items={resourcesItems} />
           </nav>
 
@@ -132,7 +132,7 @@ const Header = () => {
               Our Services
             </Link>
             <button className="text-left text-foreground hover:text-accent transition-colors py-2">
-              Why TrueNorth™
+              Why Northern Leads™
             </button>
             <button className="text-left text-foreground hover:text-accent transition-colors py-2">
               Resources

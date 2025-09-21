@@ -19,8 +19,8 @@ const VirtualQueuingCallCenter = () => {
             Virtual queuing is revolutionizing call center operations by
             allowing customers to hold their place in line without staying on
             the phone. This innovative technology improves customer satisfaction
-            while reducing operational costs. At TrueNorth, we help businesses
-            implement virtual queuing solutions that enhance customer
+            while reducing operational costs. At Norther Leads Media, we help
+            businesses implement virtual queuing solutions that enhance customer
             experiences and optimize call center efficiency.
           </p>
         </CardContent>
@@ -146,9 +146,9 @@ const VirtualQueuingCallCenter = () => {
           </h2>
           <p className="text-muted-foreground leading-relaxed">
             Ready to implement virtual queuing in your call center? Our team at
-            TrueNorth specializes in helping businesses deploy advanced call
-            center technologies that improve customer experiences and
-            operational efficiency. Contact us today to discover how virtual
+            Norther Leads Media specializes in helping businesses deploy
+            advanced call center technologies that improve customer experiences
+            and operational efficiency. Contact us today to discover how virtual
             queuing can transform your call center operations.
           </p>
         </CardContent>
@@ -162,7 +162,7 @@ const VirtualQueuingCallCenter = () => {
       excerpt="Discover how virtual queuing technology can improve customer satisfaction and reduce operational costs in your call center."
       category="Call Center"
       date="Dec 8, 2024"
-      author="TrueNorth Team"
+      author="Norther Leads Media Team"
       readTime="7 min read"
       content={content}
       icon={Phone}

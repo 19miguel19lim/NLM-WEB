@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Target, Users, Heart, Award } from "lucide-react";
 import { Link } from "react-router-dom";
-import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
+import NortherLeadsVideo from "@/assets/trueNorthVideo.mp4";
 
 const About = () => {
   const values = [
@@ -49,7 +49,7 @@ const About = () => {
             playsInline
             className="absolute inset-0 w-full h-full object-cover"
           >
-            <source src={TrueNorthVideo} type="video/mp4" />
+            <source src={NortherLeadsVideo} type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-hero-gradient opacity-60" />
           <div className="absolute inset-0 overflow-hidden">
@@ -71,8 +71,8 @@ const About = () => {
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Founded in 2022, TrueNorth is a performance marketing agency
-              focused on generating high-quality leads and calls through
+              Founded in 2022, Norther Leads Media is a performance marketing
+              agency focused on generating high-quality leads and calls through
               data-driven ad campaigns. By leveraging platforms like Google and
               Meta, we design, launch, and optimize campaigns that drive
               measurable ROI.
@@ -96,10 +96,10 @@ const About = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
                   <p className="text-muted-foreground leading-relaxed">
-                    TrueNorth is a performance marketing agency focused on
-                    generating high-quality leads and calls through data-driven
-                    ad campaigns. We quickly realized that business owners
-                    needed comprehensive growth solutions that deliver
+                    Norther Leads Media is a performance marketing agency
+                    focused on generating high-quality leads and calls through
+                    data-driven ad campaigns. We quickly realized that business
+                    owners needed comprehensive growth solutions that deliver
                     measurable ROI.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
@@ -152,10 +152,10 @@ const About = () => {
                 Who We Are
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                At TrueNorth, we're not just a team of professionals. We're a
-                family that believes our culture will not only help our company
-                grow but anyone we conduct business with. Culture is king within
-                our organization.
+                At Norther Leads Media, we're not just a team of professionals.
+                We're a family that believes our culture will not only help our
+                company grow but anyone we conduct business with. Culture is
+                king within our organization.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-12">
                 Our team consists of industry veterans, old school TV media
@@ -198,7 +198,7 @@ const About = () => {
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
                 We're here to answer any question you may have and help you
-                start your journey with TrueNorth.
+                start your journey with Norther Leads Media.
               </p>
               <Button
                 variant="default"

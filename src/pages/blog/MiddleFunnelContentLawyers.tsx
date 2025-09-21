@@ -19,8 +19,8 @@ const MiddleFunnelContentLawyers = () => {
             Middle-funnel content is crucial for nurturing prospects who are
             aware of their legal needs but haven't yet decided on an attorney.
             These potential clients are evaluating their options and comparing
-            different law firms. At TrueNorth, we help law firms create
-            compelling middle-funnel content that builds trust and moves
+            different law firms. At Norther Leads Media, we help law firms
+            create compelling middle-funnel content that builds trust and moves
             prospects closer to hiring decisions.
           </p>
         </CardContent>
@@ -132,10 +132,10 @@ const MiddleFunnelContentLawyers = () => {
           </h2>
           <p className="text-muted-foreground leading-relaxed">
             Ready to create compelling middle-funnel content that nurtures
-            prospects and builds trust? Our team at TrueNorth specializes in
-            helping law firms develop content strategies that convert prospects
-            into clients. Contact us today to discover how we can help you
-            create content that drives results.
+            prospects and builds trust? Our team at Norther Leads Media
+            specializes in helping law firms develop content strategies that
+            convert prospects into clients. Contact us today to discover how we
+            can help you create content that drives results.
           </p>
         </CardContent>
       </Card>
@@ -148,7 +148,7 @@ const MiddleFunnelContentLawyers = () => {
       excerpt="Learn how to create effective middle-funnel content that nurtures prospects and builds trust for your law firm."
       category="Legal Marketing"
       date="Dec 9, 2024"
-      author="TrueNorth Team"
+      author="Norther Leads Media Team"
       readTime="6 min read"
       content={content}
       icon={Scale}

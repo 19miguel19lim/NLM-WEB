@@ -13,7 +13,7 @@ import {
   BarChart3,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
+import NortherLeadsVideo from "@/assets/trueNorthVideo.mp4";
 
 const DebtRelief = () => {
   const processSteps = [
@@ -86,7 +86,7 @@ const DebtRelief = () => {
             playsInline
             className="absolute inset-0 w-full h-full object-cover"
           >
-            <source src={TrueNorthVideo} type="video/mp4" />
+            <source src={NortherLeadsVideo} type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-hero-gradient opacity-60" />
           <div className="absolute inset-0 overflow-hidden">
@@ -249,9 +249,9 @@ const DebtRelief = () => {
                 Ready to Scale Your Debt Relief Business?
               </h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Join hundreds of debt relief professionals who trust TrueNorth
-                to deliver high-quality leads and drive sustainable growth for
-                their business.
+                Join hundreds of debt relief professionals who trust Norther
+                Leads Media to deliver high-quality leads and drive sustainable
+                growth for their business.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button

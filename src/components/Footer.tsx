@@ -9,7 +9,7 @@ import {
   Phone,
   MapPin,
 } from "lucide-react";
-import TrueNorthLogo from "@/assets/TrueNorth-Logo.png";
+import NorthernLeadsLogo from "@/assets/northerleads-light-logo.png";
 
 const Footer = () => {
   return (
@@ -25,8 +25,8 @@ const Footer = () => {
                 className="flex items-center hover:opacity-80 transition-opacity"
               >
                 <img
-                  src={TrueNorthLogo}
-                  alt="TrueNorth Logo"
+                  src={NorthernLeadsLogo}
+                  alt="Northern Leads Media Logo"
                   className="h-12 w-auto"
                 />
               </Link>
@@ -152,7 +152,7 @@ const Footer = () => {
                   <div>
                     <p className="text-muted-foreground text-sm">Email</p>
                     <button className="text-foreground hover:text-accent transition-colors">
-                      hello@truenorthmedia.llc
+                      hello@northerleadsmedia.com
                     </button>
                   </div>
                 </div>
@@ -193,7 +193,7 @@ const Footer = () => {
         <div className="py-6 border-t border-border">
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
             <p className="text-muted-foreground text-sm">
-              © 2024 TrueNorth. All rights reserved.
+              © 2024 Northern Leads Media. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <Link

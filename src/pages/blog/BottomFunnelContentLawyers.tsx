@@ -19,8 +19,8 @@ const BottomFunnelContentLawyers = () => {
             Bottom-of-funnel content is crucial for converting prospects who are
             ready to hire a lawyer. These potential clients have already
             identified their legal needs and are actively comparing attorneys.
-            At TrueNorth, we've helped law firms create compelling bottom-funnel
-            content that converts prospects into clients.
+            At Norther Leads Media, we've helped law firms create compelling
+            bottom-funnel content that converts prospects into clients.
           </p>
         </CardContent>
       </Card>
@@ -131,9 +131,10 @@ const BottomFunnelContentLawyers = () => {
           </h2>
           <p className="text-muted-foreground leading-relaxed">
             Ready to create compelling bottom-funnel content that converts
-            prospects into clients? Our team at TrueNorth specializes in helping
-            law firms develop content strategies that drive results. Contact us
-            today to discover how we can help you create content that converts.
+            prospects into clients? Our team at Norther Leads Media specializes
+            in helping law firms develop content strategies that drive results.
+            Contact us today to discover how we can help you create content that
+            converts.
           </p>
         </CardContent>
       </Card>
@@ -146,7 +147,7 @@ const BottomFunnelContentLawyers = () => {
       excerpt="Learn how to create compelling bottom-funnel content that converts prospects into clients for your law firm."
       category="Legal Marketing"
       date="Dec 12, 2024"
-      author="TrueNorth Team"
+      author="Norther Leads Media Team"
       readTime="6 min read"
       content={content}
       icon={Scale}

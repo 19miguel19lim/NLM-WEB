@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useTypingAnimation } from "@/hooks/use-typing-animation";
-import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
+import NortherLeadsVideo from "@/assets/trueNorthVideo.mp4";
 
 const Hero = () => {
   const typingText = useTypingAnimation({
@@ -27,7 +27,7 @@ const Hero = () => {
         loop
         playsInline
       >
-        <source src={TrueNorthVideo} type="video/mp4" />
+        <source src={NortherLeadsVideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

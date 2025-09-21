@@ -10,7 +10,7 @@ import {
   FileText,
   Mail,
 } from "lucide-react";
-import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
+import NortherLeadsVideo from "@/assets/trueNorthVideo.mp4";
 
 const CookiePolicy = () => {
   return (
@@ -29,7 +29,7 @@ const CookiePolicy = () => {
               playsInline
               className="w-full h-full object-cover"
             >
-              <source src={TrueNorthVideo} type="video/mp4" />
+              <source src={NortherLeadsVideo} type="video/mp4" />
             </video>
             <div className="absolute inset-0 bg-hero-gradient opacity-60" />
           </div>
@@ -297,10 +297,10 @@ const CookiePolicy = () => {
                     </p>
                     <div className="bg-surface-subtle p-4 rounded-lg">
                       <p className="text-foreground font-medium">
-                        TrueNorth Media LLC
+                        Norther Leads Media LLC
                       </p>
                       <p className="text-muted-foreground">
-                        Email: hello@truenorthmedia.llc
+                        Email: hello@northerleadsmedia.com
                       </p>
                       <p className="text-muted-foreground">
                         Phone: 1-800-TRUENORTH-123

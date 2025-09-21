@@ -18,9 +18,9 @@ const PhoneLeadsChannels = () => {
         <CardContent className="p-8">
           <p className="text-lg text-muted-foreground leading-relaxed">
             Generating high-quality phone leads requires a strategic approach
-            across multiple channels. At TrueNorth, we've discovered these
-            hidden channels through our testing and optimization. Here are the 5
-            most overlooked channels that consistently drive quality phone
+            across multiple channels. At Norther Leads Media, we've discovered
+            these hidden channels through our testing and optimization. Here are
+            the 5 most overlooked channels that consistently drive quality phone
             leads.
           </p>
         </CardContent>
@@ -133,9 +133,10 @@ const PhoneLeadsChannels = () => {
           </h2>
           <p className="text-muted-foreground leading-relaxed">
             Ready to tap into these powerful phone lead channels? Our team at
-            TrueNorth specializes in optimizing these overlooked channels for
-            maximum ROI. Contact us today to discover how we can help you
-            generate more qualified phone leads through our proven strategies.
+            Norther Leads Media specializes in optimizing these overlooked
+            channels for maximum ROI. Contact us today to discover how we can
+            help you generate more qualified phone leads through our proven
+            strategies.
           </p>
         </CardContent>
       </Card>
@@ -148,7 +149,7 @@ const PhoneLeadsChannels = () => {
       excerpt="Discover the hidden channels that consistently generate high-quality phone leads for your business."
       category="Lead Generation"
       date="Dec 14, 2024"
-      author="TrueNorth Team"
+      author="Norther Leads Media Team"
       readTime="6 min read"
       content={content}
       icon={TrendingUp}

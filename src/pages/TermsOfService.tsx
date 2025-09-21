@@ -10,7 +10,7 @@ import {
   X,
   Mail,
 } from "lucide-react";
-import TrueNorthVideo from "@/assets/trueNorthVideo.mp4";
+import NortherLeadsVideo from "@/assets/trueNorthVideo.mp4";
 
 const TermsOfService = () => {
   return (
@@ -29,7 +29,7 @@ const TermsOfService = () => {
               playsInline
               className="w-full h-full object-cover"
             >
-              <source src={TrueNorthVideo} type="video/mp4" />
+              <source src={NortherLeadsVideo} type="video/mp4" />
             </video>
             <div className="absolute inset-0 bg-hero-gradient opacity-60" />
           </div>
@@ -80,10 +80,10 @@ const TermsOfService = () => {
                       Acceptance of Terms
                     </h2>
                     <p className="text-muted-foreground mb-4">
-                      By accessing and using TrueNorth Media LLC's services, you
-                      accept and agree to be bound by the terms and provision of
-                      this agreement. If you do not agree to abide by the above,
-                      please do not use this service.
+                      By accessing and using Norther Leads Media LLC's services,
+                      you accept and agree to be bound by the terms and
+                      provision of this agreement. If you do not agree to abide
+                      by the above, please do not use this service.
                     </p>
                   </CardContent>
                 </Card>
@@ -95,7 +95,7 @@ const TermsOfService = () => {
                       Services Description
                     </h2>
                     <p className="text-muted-foreground mb-4">
-                      TrueNorth Media LLC is a performance marketing agency
+                      Norther Leads Media LLC is a performance marketing agency
                       focused on generating high-quality leads and calls through
                       data-driven ad campaigns. Our services include:
                     </p>
@@ -163,11 +163,11 @@ const TermsOfService = () => {
                       Limitation of Liability
                     </h2>
                     <p className="text-muted-foreground mb-4">
-                      TrueNorth Media LLC shall not be liable for any indirect,
-                      incidental, special, consequential, or punitive damages,
-                      including without limitation, loss of profits, data, use,
-                      goodwill, or other intangible losses, resulting from your
-                      use of our services.
+                      Norther Leads Media LLC shall not be liable for any
+                      indirect, incidental, special, consequential, or punitive
+                      damages, including without limitation, loss of profits,
+                      data, use, goodwill, or other intangible losses, resulting
+                      from your use of our services.
                     </p>
                   </CardContent>
                 </Card>
@@ -180,8 +180,8 @@ const TermsOfService = () => {
                     </h2>
                     <p className="text-muted-foreground mb-4">
                       All content, trademarks, and intellectual property on our
-                      website and in our services are owned by TrueNorth Media
-                      LLC or our licensors. You may not use, reproduce, or
+                      website and in our services are owned by Norther Leads
+                      Media LLC or our licensors. You may not use, reproduce, or
                       distribute any content without our written permission.
                     </p>
                   </CardContent>
@@ -228,10 +228,10 @@ const TermsOfService = () => {
                     </p>
                     <div className="bg-surface-subtle p-4 rounded-lg">
                       <p className="text-foreground font-medium">
-                        TrueNorth Media LLC
+                        Norther Leads Media LLC
                       </p>
                       <p className="text-muted-foreground">
-                        Email: hello@truenorthmedia.llc
+                        Email: hello@northerleadsmedia.com
                       </p>
                       <p className="text-muted-foreground">
                         Phone: 1-800-TRUENORTH-123
