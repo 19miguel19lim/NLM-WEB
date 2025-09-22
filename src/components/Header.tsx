@@ -41,7 +41,8 @@ const Header = () => {
     {
       label: "Testimonials",
       href: "/testimonials",
-      description: "See what our clients say about working with Northern Leads Media",
+      description:
+        "See what our clients say about working with Northern Leads Media",
     },
   ];
 
@@ -84,7 +85,10 @@ const Header = () => {
             >
               Our Services
             </Link>
-            <DropdownMenu trigger="Why Northern Leads™" items={whyNorthernLeadsItems} />
+            <DropdownMenu
+              trigger="Why Northern Leads™"
+              items={whyNorthernLeadsItems}
+            />
             <DropdownMenu trigger="Resources" items={resourcesItems} />
           </nav>
 
@@ -122,21 +126,61 @@ const Header = () => {
           )}
         >
           <nav className="flex flex-col space-y-4 pt-4 border-t border-border">
-            <button className="text-left text-foreground hover:text-accent transition-colors py-2">
-              Industries
-            </button>
+            {/* Industries Dropdown */}
+            <div className="space-y-2">
+              <div className="text-foreground font-medium py-2">Industries</div>
+              {industriesItems.map((item) => (
+                <Link
+                  key={item.href}
+                  to={item.href}
+                  className="block text-muted-foreground hover:text-accent transition-colors py-1 pl-4 text-sm"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+
             <Link
               to="/services"
               className="text-left text-foreground hover:text-accent transition-colors py-2 block"
+              onClick={() => setIsMenuOpen(false)}
             >
               Our Services
             </Link>
-            <button className="text-left text-foreground hover:text-accent transition-colors py-2">
-              Why Northern Leads™
-            </button>
-            <button className="text-left text-foreground hover:text-accent transition-colors py-2">
-              Resources
-            </button>
+
+            {/* Why Northern Leads Dropdown */}
+            <div className="space-y-2">
+              <div className="text-foreground font-medium py-2">
+                Why Northern Leads™
+              </div>
+              {whyNorthernLeadsItems.map((item) => (
+                <Link
+                  key={item.href}
+                  to={item.href}
+                  className="block text-muted-foreground hover:text-accent transition-colors py-1 pl-4 text-sm"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+
+            {/* Resources Dropdown */}
+            <div className="space-y-2">
+              <div className="text-foreground font-medium py-2">Resources</div>
+              {resourcesItems.map((item) => (
+                <Link
+                  key={item.href}
+                  to={item.href}
+                  className="block text-muted-foreground hover:text-accent transition-colors py-1 pl-4 text-sm"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+
             <div className="pt-4">
               <Button
                 variant="default"
@@ -144,7 +188,9 @@ const Header = () => {
                 className="w-full bg-orange-500 hover:bg-orange-600 text-white border-0 font-semibold tracking-wide transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
                 asChild
               >
-                <Link to="/contact">Get Started</Link>
+                <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
+                  Get Started
+                </Link>
               </Button>
             </div>
           </nav>
