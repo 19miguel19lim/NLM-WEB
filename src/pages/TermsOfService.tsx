@@ -80,10 +80,10 @@ const TermsOfService = () => {
                       Acceptance of Terms
                     </h2>
                     <p className="text-muted-foreground mb-4">
-                      By accessing and using Norther Leads Media LLC's services,
-                      you accept and agree to be bound by the terms and
-                      provision of this agreement. If you do not agree to abide
-                      by the above, please do not use this service.
+                      By accessing and using Northern Leads Media LLC's
+                      services, you accept and agree to be bound by the terms
+                      and provision of this agreement. If you do not agree to
+                      abide by the above, please do not use this service.
                     </p>
                   </CardContent>
                 </Card>
@@ -95,7 +95,7 @@ const TermsOfService = () => {
                       Services Description
                     </h2>
                     <p className="text-muted-foreground mb-4">
-                      Norther Leads Media LLC is a performance marketing agency
+                      Northern Leads Media LLC is a performance marketing agency
                       focused on generating high-quality leads and calls through
                       data-driven ad campaigns. Our services include:
                     </p>
@@ -163,7 +163,7 @@ const TermsOfService = () => {
                       Limitation of Liability
                     </h2>
                     <p className="text-muted-foreground mb-4">
-                      Norther Leads Media LLC shall not be liable for any
+                      Northern Leads Media LLC shall not be liable for any
                       indirect, incidental, special, consequential, or punitive
                       damages, including without limitation, loss of profits,
                       data, use, goodwill, or other intangible losses, resulting
@@ -228,13 +228,13 @@ const TermsOfService = () => {
                     </p>
                     <div className="bg-surface-subtle p-4 rounded-lg">
                       <p className="text-foreground font-medium">
-                        Norther Leads Media LLC
+                        Northern Leads Media LLC
                       </p>
                       <p className="text-muted-foreground">
-                        Email: hello@northerleadsmedia.com
+                        Email: hello@northernleadsmedia.com
                       </p>
                       <p className="text-muted-foreground">
-                        Phone: 1-800-TRUENORTH-123
+                        Phone: +1 833 6627956
                       </p>
                     </div>
                   </CardContent>

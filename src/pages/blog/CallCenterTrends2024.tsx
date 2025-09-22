@@ -18,7 +18,7 @@ const CallCenterTrends2024 = () => {
           <p className="text-lg text-muted-foreground leading-relaxed">
             The call center industry is evolving rapidly in 2024, driven by
             technological advances and changing customer expectations. At
-            Norther Leads Media, we stay ahead of these trends to help our
+            Northern Leads Media, we stay ahead of these trends to help our
             clients optimize their call center operations and improve customer
             satisfaction. Here are the key trends shaping the industry this
             year.
@@ -148,7 +148,7 @@ const CallCenterTrends2024 = () => {
           </h2>
           <p className="text-muted-foreground leading-relaxed">
             Ready to modernize your call center operations with these 2024
-            trends? Our team at Norther Leads Media specializes in helping
+            trends? Our team at Northern Leads Media specializes in helping
             businesses implement cutting-edge call center technologies and
             strategies. Contact us today to discover how we can help you stay
             ahead of the competition.
@@ -164,7 +164,7 @@ const CallCenterTrends2024 = () => {
       excerpt="Discover the key trends shaping the call center industry in 2024 and how they can transform your customer service operations."
       category="Call Center"
       date="Dec 11, 2024"
-      author="Norther Leads Media Team"
+      author="Northern Leads Media Team"
       readTime="8 min read"
       content={content}
       icon={Phone}

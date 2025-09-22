@@ -33,7 +33,7 @@ const Contact = () => {
               Business?
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Let's discuss how Norther Leads Media can help you achieve your
+              Let's discuss how Northern Leads Media can help you achieve your
               customer acquisition goals. Get started with a free consultation
               today.
             </p>
@@ -148,7 +148,7 @@ const Contact = () => {
                     <div>
                       <h4 className="font-medium text-foreground">Email</h4>
                       <p className="text-muted-foreground">
-                        hello@northerleadsmedia.com
+                        hello@northernleadsmedia.com
                       </p>
                     </div>
                   </div>
@@ -186,7 +186,7 @@ const Contact = () => {
               <Card className="bg-gradient-primary border-0 text-primary-foreground shadow-elegant">
                 <CardContent className="p-8 text-center">
                   <h3 className="text-xl font-heading font-bold mb-4">
-                    Why Choose Norther Leads Media?
+                    Why Choose Northern Leads Media?
                   </h3>
                   <ul className="text-left space-y-2 text-primary-foreground/90">
                     <li>• Proven performance marketing strategies</li>

@@ -8,7 +8,7 @@ const Features = () => {
       icon: Users,
       title: "We Act As Your Partner",
       description:
-        "At Norther Leads Media, we're not just an external agency to your business. We look at ourselves as your partner in growth. It's not just all numbers and ROI with us, its building deep partnerships as well.",
+        "At Northern Leads Media, we're not just an external agency to your business. We look at ourselves as your partner in growth. It's not just all numbers and ROI with us, its building deep partnerships as well.",
     },
     {
       icon: TrendingUp,
@@ -51,7 +51,7 @@ const Features = () => {
             Our Reputation
           </p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-foreground mb-6">
-            Why Does the Industry Choose Norther Leads Media?
+            Why Does the Industry Choose Northern Leads Media?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             We've built our reputation on delivering exceptional results and
@@ -87,7 +87,7 @@ const Features = () => {
         {/* Call to Action */}
         <div className="text-center mt-16">
           <p className="text-muted-foreground mb-6">
-            Ready to experience the Norther Leads Media difference?
+            Ready to experience the Northern Leads Media difference?
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link

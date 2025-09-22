@@ -20,8 +20,8 @@ const CallCenterSentimentAnalysis = () => {
             understand and respond to customer emotions. By analyzing the tone,
             mood, and emotional context of customer interactions, call centers
             can provide more personalized service and prevent customer churn. At
-            Norther Leads Media, we help businesses implement sentiment analysis
-            solutions that drive better customer experiences.
+            Northern Leads Media, we help businesses implement sentiment
+            analysis solutions that drive better customer experiences.
           </p>
         </CardContent>
       </Card>
@@ -135,7 +135,7 @@ const CallCenterSentimentAnalysis = () => {
           </h2>
           <p className="text-muted-foreground leading-relaxed">
             Ready to implement sentiment analysis in your call center? Our team
-            at Norther Leads Media specializes in helping businesses deploy
+            at Northern Leads Media specializes in helping businesses deploy
             advanced analytics solutions that improve customer experiences.
             Contact us today to discover how sentiment analysis can transform
             your call center operations.
@@ -151,7 +151,7 @@ const CallCenterSentimentAnalysis = () => {
       excerpt="Learn how sentiment analysis can transform your call center operations and improve customer experiences through emotional intelligence."
       category="Call Center"
       date="Dec 10, 2024"
-      author="Norther Leads Media Team"
+      author="Northern Leads Media Team"
       readTime="7 min read"
       content={content}
       icon={Phone}

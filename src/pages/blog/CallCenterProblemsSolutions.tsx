@@ -20,7 +20,7 @@ const CallCenterProblemsSolutions = () => {
             Call centers face numerous challenges that can impact customer
             satisfaction and operational efficiency. From high agent turnover to
             long wait times, these problems can significantly affect your
-            business performance. At Norther Leads Media, we help call centers
+            business performance. At Northern Leads Media, we help call centers
             identify and solve these common issues with proven strategies and
             technology solutions.
           </p>
@@ -157,7 +157,7 @@ const CallCenterProblemsSolutions = () => {
           </h2>
           <p className="text-muted-foreground leading-relaxed">
             Ready to solve your call center problems and improve performance?
-            Our team at Norther Leads Media specializes in helping businesses
+            Our team at Northern Leads Media specializes in helping businesses
             identify and resolve call center challenges with proven strategies
             and technology solutions. Contact us today to discover how we can
             help you optimize your call center operations.
@@ -173,7 +173,7 @@ const CallCenterProblemsSolutions = () => {
       excerpt="Discover the most common call center problems and proven solutions to improve customer satisfaction and operational efficiency."
       category="Call Center"
       date="Dec 7, 2024"
-      author="Norther Leads Media Team"
+      author="Northern Leads Media Team"
       readTime="8 min read"
       content={content}
       icon={Phone}

@@ -19,7 +19,7 @@ const SalesObjectionsPhone = () => {
         <CardContent className="p-8">
           <p className="text-lg text-muted-foreground leading-relaxed">
             Phone sales objections are inevitable, but they don't have to be
-            deal-breakers. At Norther Leads Media, we've trained thousands of
+            deal-breakers. At Northern Leads Media, we've trained thousands of
             sales professionals to handle objections with confidence and turn
             them into opportunities.
           </p>
@@ -133,7 +133,7 @@ const SalesObjectionsPhone = () => {
           </h2>
           <p className="text-muted-foreground leading-relaxed">
             Ready to master phone sales objections and close more deals? Our
-            team at Norther Leads Media specializes in training sales
+            team at Northern Leads Media specializes in training sales
             professionals to handle objections with confidence. Contact us today
             to discover how we can help you improve your sales performance and
             achieve better results.
@@ -149,7 +149,7 @@ const SalesObjectionsPhone = () => {
       excerpt="Master the art of handling phone sales objections with proven strategies that turn challenges into opportunities."
       category="Sales Training"
       date="Dec 16, 2024"
-      author="Norther Leads Media Team"
+      author="Northern Leads Media Team"
       readTime="6 min read"
       content={content}
       icon={Phone}

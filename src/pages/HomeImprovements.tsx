@@ -246,7 +246,7 @@ const HomeImprovements = () => {
               </h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
                 Join hundreds of home improvement professionals who trust
-                Norther Leads Media to deliver high-quality leads and drive
+                Northern Leads Media to deliver high-quality leads and drive
                 sustainable growth for their business.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

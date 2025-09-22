@@ -152,7 +152,7 @@ const Footer = () => {
                   <div>
                     <p className="text-muted-foreground text-sm">Email</p>
                     <button className="text-foreground hover:text-accent transition-colors">
-                      hello@northerleadsmedia.com
+                      hello@northernleadsmedia.com
                     </button>
                   </div>
                 </div>

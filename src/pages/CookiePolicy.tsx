@@ -297,13 +297,13 @@ const CookiePolicy = () => {
                     </p>
                     <div className="bg-surface-subtle p-4 rounded-lg">
                       <p className="text-foreground font-medium">
-                        Norther Leads Media LLC
+                        Northern Leads Media LLC
                       </p>
                       <p className="text-muted-foreground">
-                        Email: hello@northerleadsmedia.com
+                        Email: hello@northernleadsmedia.com
                       </p>
                       <p className="text-muted-foreground">
-                        Phone: 1-800-TRUENORTH-123
+                        Phone: +1 833 6627956
                       </p>
                     </div>
                   </CardContent>

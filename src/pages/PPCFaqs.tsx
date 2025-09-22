@@ -71,9 +71,10 @@ const PPCFaqs = () => {
     },
     {
       id: "faq-9",
-      question: "What Makes Norther Leads Media Different from Other Networks?",
+      question:
+        "What Makes Northern Leads Media Different from Other Networks?",
       answer:
-        "Norther Leads Media stands out through our exclusive focus on quality over quantity, transparent reporting and real-time analytics, dedicated account management and support, proprietary fraud detection systems, industry-leading compliance standards, flexible payment terms, and our commitment to long-term partnerships rather than transactional relationships. We view ourselves as an extension of your business, not just a vendor.",
+        "Northern Leads Media stands out through our exclusive focus on quality over quantity, transparent reporting and real-time analytics, dedicated account management and support, proprietary fraud detection systems, industry-leading compliance standards, flexible payment terms, and our commitment to long-term partnerships rather than transactional relationships. We view ourselves as an extension of your business, not just a vendor.",
     },
   ];
 
@@ -145,7 +146,8 @@ const PPCFaqs = () => {
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Everything you need to know about pay per call marketing,
-              networks, and how Norther Leads Media can help your business grow.
+              networks, and how Northern Leads Media can help your business
+              grow.
             </p>
           </div>
         </section>
@@ -291,7 +293,7 @@ const PPCFaqs = () => {
                 Ready to Start Generating Quality Calls?
               </h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Join thousands of businesses that trust Norther Leads Media to
+                Join thousands of businesses that trust Northern Leads Media to
                 deliver high-quality phone leads and drive sustainable growth.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

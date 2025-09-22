@@ -14,7 +14,7 @@ const Testimonials = () => {
       role: "CEO",
       image: "/api/placeholder/80/80",
       quote:
-        "Norther Leads Media transformed our lead generation strategy completely. Their data-driven approach helped us increase our qualified leads by 300% in just 6 months. The team's expertise in performance marketing is unmatched, and they truly understand how to scale businesses like ours.",
+        "Northern Leads Media transformed our lead generation strategy completely. Their data-driven approach helped us increase our qualified leads by 300% in just 6 months. The team's expertise in performance marketing is unmatched, and they truly understand how to scale businesses like ours.",
       rating: 5,
     },
     {
@@ -23,7 +23,7 @@ const Testimonials = () => {
       role: "Founder",
       image: "/api/placeholder/80/80",
       quote:
-        "Working with Norther Leads Media has been a game-changer for our business. Their campaigns on Google and Meta have consistently delivered high-quality leads that convert. The ROI has been exceptional, and their team is always available to optimize and improve our results.",
+        "Working with Northern Leads Media has been a game-changer for our business. Their campaigns on Google and Meta have consistently delivered high-quality leads that convert. The ROI has been exceptional, and their team is always available to optimize and improve our results.",
       rating: 5,
     },
     {
@@ -32,7 +32,7 @@ const Testimonials = () => {
       role: "Marketing Director",
       image: "/api/placeholder/80/80",
       quote:
-        "Norther Leads Media's performance marketing strategies have revolutionized how we acquire customers. Their targeted campaigns and optimized landing pages have significantly improved our conversion rates. We've seen a 250% increase in qualified leads since partnering with them.",
+        "Northern Leads Media's performance marketing strategies have revolutionized how we acquire customers. Their targeted campaigns and optimized landing pages have significantly improved our conversion rates. We've seen a 250% increase in qualified leads since partnering with them.",
       rating: 5,
     },
     {
@@ -41,7 +41,7 @@ const Testimonials = () => {
       role: "Owner",
       image: "/api/placeholder/80/80",
       quote:
-        "The results speak for themselves. Norther Leads Media's data-driven campaigns have helped us scale our home improvement business faster than we ever thought possible. Their expertise in performance marketing and lead generation is exactly what we needed to grow.",
+        "The results speak for themselves. Northern Leads Media's data-driven campaigns have helped us scale our home improvement business faster than we ever thought possible. Their expertise in performance marketing and lead generation is exactly what we needed to grow.",
       rating: 5,
     },
     {
@@ -50,7 +50,7 @@ const Testimonials = () => {
       role: "Managing Partner",
       image: "/api/placeholder/80/80",
       quote:
-        "Norther Leads Media understands the unique challenges of our industry. Their performance marketing campaigns have delivered high-quality leads that actually convert into clients. The team's professionalism and results-driven approach make them an invaluable partner.",
+        "Northern Leads Media understands the unique challenges of our industry. Their performance marketing campaigns have delivered high-quality leads that actually convert into clients. The team's professionalism and results-driven approach make them an invaluable partner.",
       rating: 5,
     },
     {
@@ -59,7 +59,7 @@ const Testimonials = () => {
       role: "VP of Marketing",
       image: "/api/placeholder/80/80",
       quote:
-        "Norther Leads Media's expertise in performance marketing has been instrumental in our growth. Their campaigns consistently deliver measurable ROI, and their team's attention to detail and optimization strategies have exceeded our expectations.",
+        "Northern Leads Media's expertise in performance marketing has been instrumental in our growth. Their campaigns consistently deliver measurable ROI, and their team's attention to detail and optimization strategies have exceeded our expectations.",
       rating: 5,
     },
   ];
@@ -207,7 +207,7 @@ const Testimonials = () => {
               </h2>
               <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
                 Join hundreds of satisfied clients who have transformed their
-                business with Norther Leads Media's performance marketing
+                business with Northern Leads Media's performance marketing
                 solutions.
               </p>
 
@@ -245,7 +245,7 @@ const Testimonials = () => {
                 Ready to Join Our Success Stories?
               </h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Experience the Norther Leads Media difference and see why our
+                Experience the Northern Leads Media difference and see why our
                 clients trust us as their strategic growth partner. Let's write
                 your success story together.
               </p>

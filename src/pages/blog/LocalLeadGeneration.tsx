@@ -17,7 +17,7 @@ const LocalLeadGeneration = () => {
         <CardContent className="p-8">
           <p className="text-lg text-muted-foreground leading-relaxed">
             Local lead generation is the backbone of successful businesses in
-            today's competitive market. At Norther Leads Media, we've helped
+            today's competitive market. At Northern Leads Media, we've helped
             hundreds of businesses master the art of attracting high-quality
             local leads that convert into paying customers.
           </p>
@@ -133,7 +133,7 @@ const LocalLeadGeneration = () => {
       excerpt="Discover the most effective strategies for generating high-quality local leads that convert into paying customers."
       category="Lead Generation"
       date="Dec 15, 2024"
-      author="Norther Leads Media Team"
+      author="Northern Leads Media Team"
       readTime="5 min read"
       content={content}
       icon={BookOpen}
